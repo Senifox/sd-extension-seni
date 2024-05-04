@@ -10,4 +10,22 @@ ul.options li:nth-child(odd) {
     background-color: var(--border-color-accent);
 }
 
+.SeniModelGroupHeader {
+    /* content: attr(data-group-title); */
+    display: block;
+    font-weight: bold;
+    margin-top: 10px; /* Spacing between the headings */
+    margin-bottom: 5px;
+}
+
+.SeniModelGroupMember {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.SeniModelSelected {
+    font-weight: bold;
+    color: orange;
+}
+
 /* #endregion - Models / Checkpoint List - */
