@@ -1,0 +1,13 @@
+/* #region - Models/Checkpoint List - */
+
+/* Childelements with even positions */
+ul.options li:nth-child(even) {
+    background-color: var(--color-accent-soft);
+}
+
+/* Childelements with odd positions */
+ul.options li:nth-child(odd) {
+    background-color: var(--border-color-accent);
+}
+
+/* #endregion - Models / Checkpoint List - */
