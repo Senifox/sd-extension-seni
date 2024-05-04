@@ -16,11 +16,31 @@ ul.options li:nth-child(odd) {
     font-weight: bold;
     margin-top: 10px; /* Spacing between the headings */
     margin-bottom: 5px;
+    font-size: 14pt;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 10px;
+}
+
+.SeniModelGroupHeader ul {
+    margin-top: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 2px;
 }
 
 .SeniModelGroupMember {
-    margin-left: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 10pt;
+    font-weight: normal;
+    text-align: left;
 }
 
 .SeniModelSelected {

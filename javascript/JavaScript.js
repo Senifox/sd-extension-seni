@@ -24,10 +24,12 @@ function groupModels() {
             groupTitle = groupTitle.trim();
 
             /* Create new li group header*/
-            var neuesLiElement = document.createElement("li");
-            neuesLiElement.textContent = groupTitle;
-            neuesLiElement.classList.add('SeniModelGroupHeader');
-            list.appendChild(neuesLiElement);
+            let newLiHeader = document.createElement("li");
+            newLiHeader.textContent = groupTitle;
+            newLiHeader.classList.add('SeniModelGroupHeader');
+            let newSubUL = document.createElement('ul');
+            newLiHeader.appendChild(newSubUL);
+            list.appendChild(newLiHeader);
 
             for (let i = 0; i < group.length; i++) {
                 let element = group[i];
@@ -44,7 +46,7 @@ function groupModels() {
                 elementName = elementName.trim();
                 elementName = elementName.replace(groupTitle + '\\', '');
                 element.innerText = elementName;
-                neuesLiElement.appendChild(element);
+                newSubUL.appendChild(element);
             }
         }
     });
