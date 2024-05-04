@@ -49,3 +49,9 @@ ul.options li:nth-child(odd) {
 }
 
 /* #endregion - Models / Checkpoint List - */
+
+/* #region - LivePreview - */
+.empty.svelte-lk9eg8.large.unpadded_box {
+    height: 60vh;
+}
+/* #endregion - LivePreview - */
